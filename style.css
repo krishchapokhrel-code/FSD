@@ -39,7 +39,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #4CAF50; /* Underline for section headings */
+    border-bottom: 2px solid #2baabe; /* Underline for section headings */
     padding-bottom: 5px;
 }
 
@@ -77,7 +77,7 @@ button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: #43b7c661; /* Dark background for footer */
+    background: #43c66a61; /* Dark background for footer */
     color: rgb(255, 255, 255); /* White text */
 }
 
