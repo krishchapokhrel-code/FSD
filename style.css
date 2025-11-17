@@ -1,0 +1,86 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #934cafc7; /* purple background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%; /* Circular image */
+    width: 150px; /* Adjust image size */
+    height: 150px; /* Adjust image size */
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Centered content */
+    background: white; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50; /* Underline for section headings */
+    padding-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #af4caf; /* purple button */
+    color: white; /* White text */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4591a0; /* Darker blue on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #43b7c661; /* Dark background for footer */
+    color: rgb(255, 255, 255); /* White text */
+}
+
+#year {
+    font-weight: bold;
+}
